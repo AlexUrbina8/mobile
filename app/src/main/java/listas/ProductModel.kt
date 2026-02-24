@@ -1,7 +1,8 @@
-package listas
+package com.example.moviles.listas
 
-import android.R
-
-data class ProductModel(val imagen : int,
+data class ProductModel(val imagen : Int,
                         val nombre : String,
-                        val cali)
+                        val calif :  Int,
+                        val precio : Float,
+                        val entrga : String
+)

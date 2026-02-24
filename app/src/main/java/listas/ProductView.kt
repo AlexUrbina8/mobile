@@ -30,11 +30,6 @@ fun ProductPreview () {
 }
 @Composable
 fun ProductView (imagen : Int, nombre : String, calificacion : Float, precio : Int, entrega : String) {
-    /*var imagen: Int = R.drawable.alejandromagno
-    var nombre : String = "Alejandro Magno"
-    var calificacion : Float= 5.0f
-    var precio : Int = 13000
-    var entrega : String = "lunes" */
     Box(modifier = Modifier.fillMaxWidth()) {
         Row(modifier = Modifier.fillMaxWidth().padding(12.dp)) {
             Column(modifier = Modifier.fillMaxWidth(0.40f)) {
